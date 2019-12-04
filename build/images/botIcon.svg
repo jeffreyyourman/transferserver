@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="102px" height="102px" viewBox="0 0 102 102" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>OTTO_Big</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="52.5602827%" id="radialGradient-1">
+            <stop stop-color="#4A90E2" offset="0%"></stop>
+            <stop stop-color="#00338D" offset="100%"></stop>
+        </radialGradient>
+        <circle id="path-2" cx="45" cy="45" r="45"></circle>
+        <filter x="-10.0%" y="-7.8%" width="124.4%" height="124.4%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="2" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Otto" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="0.-Otto" transform="translate(-134.000000, -134.000000)">
+            <g id="OTTO-icon" transform="translate(138.000000, 136.000000)">
+                <g id="OTTO_Big">
+                    <g id="Oval-6" fill-rule="nonzero">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                        <use fill="url(#radialGradient-1)" xlink:href="#path-2"></use>
+                    </g>
+                    <ellipse id="Oval" stroke="#FFFFFF" stroke-width="3" cx="17.7553797" cy="45.377564" rx="8.62494488" ry="8.75549039"></ellipse>
+                    <ellipse id="Oval-Copy" stroke="#FFFFFF" stroke-width="3" cx="69.6032057" cy="45.377564" rx="8.62494488" ry="8.75549039"></ellipse>
+                    <rect id="Rectangle-3" stroke="#FFFFFF" stroke-width="3.4" fill="#FFFFFF" fill-rule="nonzero" x="34.9103263" y="36.3038699" width="5.40855676" height="32.5528445" rx="2.70427838"></rect>
+                    <rect id="Rectangle-3-Copy-2" stroke="#FFFFFF" stroke-width="3.4" fill="#FFFFFF" fill-rule="nonzero" x="46.4740068" y="36.3038699" width="5.40855676" height="32.5528445" rx="2.70427838"></rect>
+                    <ellipse id="Oval-4-Copy" fill="#FFFFFF" fill-rule="nonzero" cx="69.6195652" cy="48.4902054" rx="5.59143223" ry="5.67606307"></ellipse>
+                    <ellipse id="Oval-4-Copy-2" fill="#FFFFFF" fill-rule="nonzero" cx="17.7717391" cy="48.4902054" rx="5.59143223" ry="5.67606307"></ellipse>
+                    <rect id="Rectangle-7" fill="#FFFFFF" x="22" y="20" width="46" height="8" rx="4"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -2,10 +2,20 @@ const express = require('express');
 const app = express();
 const bodyParser = require('body-parser');
 const cors = require('cors');
+const path = require('path');
 
-app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.urlencoded({ extended: true }));
+// app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
+
+app.use(express.static(path.join(__dirname, '/build')));
+
+
 app.use(cors());
+
+// app.get('*', (req, res) => {
+//   res.sendFile(path.join(__dirname+'/frontend/build/index.html'));
+// });
 
 app.get('/api/chatbot', (req, res) => {
     const type = req.query.datatype;
@@ -97,5 +107,5 @@ app.get('/api/chatbot', (req, res) => {
 })
 
 app.listen('8090', () => {
-    console.log('listening on port 8080');
+    console.log('listening on port 8090');
 })
